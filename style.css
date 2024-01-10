@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 10vh;
+  width: 100%;
+  background-color: silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  width: 30px;
+}
+
+.hamburger {
+  width: 30px;
+  justify-self: end;
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
+}
+
+.first-content {
+  width: 100%;
+  height: 90vh;
+}
+.first-content .key-visual {
+  width: 70%;
+  height: 70%;
+  background-image: url("/_6722aaa0-43e8-4395-bad4-bb23014f90f5.jpg");
+  background-position: center;
+  margin: 60px auto;
+}
+.first-content .photos {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.first-content .photos .scroll {
+  display: flex;
+  overflow: hidden;
+  padding: 0;
+  list-style: none;
+}
+.first-content .photos .scroll-left {
+  animation: loop 20s infinite linear 0.5s both;
+}
+.first-content .photos .scroll-item {
+  width: 16.6666666667vw;
+  padding: 0;
+}
+.first-content .photos .scroll-item > img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes loop {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.second-content {
+  margin-top: 60px;
+  width: 100%;
+  height: 100vh;
+}
+.second-content h1 {
+  display: block;
+  margin: 30px auto;
+  width: 15%;
+}
+.second-content .pick-up {
+  height: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.second-content .pick-up .pic {
+  width: 40%;
+}
+.second-content .button {
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.second-content .button button {
+  display: block;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.third-content {
+  width: 100%;
+  height: 100vh;
+}
+.third-content h1 {
+  display: block;
+  margin: 30px auto;
+  width: 20%;
+  text-align: center;
+}
+.third-content .merit {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third-content .merit .picture {
+  margin-top: 30px;
+  height: 100%;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+.third-content .registration {
+  margin-top: 150px;
+}
+.third-content .registration h2 {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  text-align: center;
+}
+.third-content .registration .textarea {
+  display: block;
+  margin: 0 auto;
+}
+
+.forth-content {
+  width: 100%;
+  height: 80vh;
+}
+.forth-content h1 {
+  display: block;
+  margin: 30px auto;
+  width: 30%;
+  text-align: center;
+}
+.forth-content .sponsored {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.forth-content .sponsored .sponsored-photos {
+  margin-top: 30px;
+  height: 100%;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+.forth-content .button {
+  width: 200px;
+  margin: 100px auto;
+}
+.forth-content .button button {
+  display: block;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+footer {
+  width: 100%;
+  height: 20vh;
+  background-color: silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+footer .copy-right {
+  width: 30px;
+}
+footer .info {
+  position: absolute;
+  right: 0;
+  width: 150px;
+  height: 30px;
+  border: solid 1px black;
+  background-color: white;
+  margin-right: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+footer .info a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
